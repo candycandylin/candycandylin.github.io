@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+		<meta charset="UTF-8">
+		<title>LIN YU-TANG</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="css/component.css">
+		<!-- fontawesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	</head>
+	<body >
+		<div class="wrapper">
+			<!-- Start bg -->
+			<div class="bg"></div>
+			<!-- End bg -->
+			<!-- Strat header -->
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+				<div class="container">
+					<button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger text-center" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger text-center" href="#skills">SKills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger text-center" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger text-center" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End header -->
+			<!-- Strat main -->
+			<section class="main" id="top">
+				<!-- Start banner -->
+				<div class="hero">
+					<img class="graphic_001 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+					<img class="graphic_002" data-stellar-ratio="1.5"  src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+					<div class="hero__bg"></div>
+					<div class="container">
+						<div class="hero__content wow bounceInLeft">
+							<h1 class="hero__heading">HELLO<br>I'M CANDY</h1>
+							<a class="btn btn--primary btn--md js-scroll-trigger" href="#about">Know me more</a>
+						</div>
+					</div>
+				</div>
+				<!-- End banner -->
+				
+				<!-- Start about -->
+				<div id="about" class="quote bg-color-white lean-bg--top lean-bg--no-margin">
+					<img class="graphic_003 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+					<div class="container" id="about">
+						<div class="row">
+								<div class="intro">
+									<h2 class="subtitle u-text-center wow bounceInUp">ABOUT</h2>
+									<hr class="my-4">
+									<p class="m-0">你好，我是來自台南的林育瑭，今年25歲。畢業於東海大學資訊工程系數位創意組。現在任職於公司的前端網頁設計工程師。在大學時，對於就讀數位創意組的我，有別於一般資訊工程系，學習到的是所謂使用者體驗以及使用者感受。這開始培養了我對於視覺化美學以及使用舒適度的敏銳度，也開啟了我對於前端網頁的開始。在我心目中的網站，撇開功能面，最重要的是能夠吸引來看的人會有一直來瀏覽的慾望-也就是視覺及動態效果的應用，再來則是使用流程的順暢性。而在未來我會抱持著不段學習的態度來繼續提升自己。
+而我目前是擔任網頁前端設計師，使用html,  jade,  css,  scss,  jquery,bootstrap.
+一開始是負責的項目為web跟mobile  web的畫面設計以及刻畫出來。
+後來為了方便管理以及維護網站，我們將web  component化，使其變成好組織好維護的方式。而中間有一小部分參與了使用react-native來寫app的UI設計。
+現在則是用bootstrap以及jade(pug),scss來製作客製化的admin管理系統平台。</p>
+<p class="m-0">Hello,My  name  is  Lin  Yu-Tang.  You  can  call  me  Candy.  I  come  from  Tainan,  graduated  from  THU,majoring  in  Computer  Science  and  Information  Engineering.
+Now,I  am  a  web  designer  in  my  company.  
+In  the  beginning,  my  work  is  to  modify  some  style  bugs  and  create  some  new  visual  in  web  and  web  mobile.Then,  we  have  to  maintain  the  webs  we  have  ,so,  we  make  our  web  to  be  some  component.  By  doing  this,  if  we  have  some  style  to  change  in  all  our  web,  we  just  need  to  modify  one  file  and  all  webs  will  change.
+I  still  do  some  UI  design  for  APP  by  using  react-native.And  now,I  use  the  pug  ,scss,  and  bootstrap  to  customize  our  admin  system.
+In  the  future,  I  want  to  learn  more  information  not  only  for  design  ,but  also  for  front-end.  
+I  am  confident  that  I  will  be  able  combine  my  professional  skills  I  learned  into  work.  I  hope  that  I  can  contribute  a  lot  of  this  community  and  become  a  devoted  person.</p>
+									<div class="quote__name"><!-- <span>Somebody - </span>from somewhere --></div>
+								</div>
+						</div>
+					</div>
+				</div>
+				<!-- End about -->
+				<!-- Start skills -->
+				<div id="skills" class="skill bg-color-white lean-bg--bottom">
+					<div class="container py-5">
+        <h2 class="subtitle u-text-center wow bounceInUp">SKILLS</h2>
+        <hr class="my-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-desktop mb-3 sr-icons"></i>
+              <h4 class="mb-3">Web/App Design</h4>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">HTML5 / PUG</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">CSS / SCSS</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">BOOTSTRAP</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">JQUERY</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-pen mb-3 sr-icons"></i>
+              <h4 class="mb-3">UI Design</h4>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">Photoshop</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">Illustrator</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">Sketch</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">3dMax</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-comments text-primary mb-3 sr-icons"></i>
+              <h4 class="mb-3">Communication</h4>
+              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+            </div>
+          </div> -->
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-globe mb-3 sr-icons"></i>
+              <h4 class="mb-3">Language</h4>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">Chinese</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" data-progress-percent="50">
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">English</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="barWrapper text-left">
+                <p class="text-muted m-1">Japanese</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" >
+                    <!-- <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+				</div>
+				<!-- End skill -->
+				<!-- Start experience -->
+				<div id="experience" class="experience">
+					<img class="graphic_007 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-lg.svg" alt="">
+					<img class="graphic_008" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+					<img class="graphic_009" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+					<div class="container">
+						<h2 class="subtitle u-text-center color-white wow bounceInUp">EXPERIENCE</h2>
+						<div class="timeline-group">
+							<div class="timeline"></div>
+							<div class="timeline-cards">
+								<div class="timeline-cards__row">
+									<div class="timeline-card wow bounceInUp">
+										<p class="timeline-card__text d-inline-block font-weight-bold">Born in Tainan</p>
+										<p class="timeline-card__text d-inline-block font-weight-bold timeline-card_head_r">1993</p>
+									</div>
+								</div>
+								<div class="timeline-cards__row">
+									<div class="timeline-card wow bounceInUp">
+										<p class="timeline-card__text d-inline-block font-weight-bold timeline-card_head_l">2015</p>
+										<p class="timeline-card__text float-right d-inline-block font-weight-bold"> Graduated from Tunghai University</p>
+									</div>
+								</div>
+								<div class="timeline-cards__row">
+									<div class="timeline-card wow bounceInUp">
+										<p class="timeline-card__text font-weight-bold d-inline-block ">Exploring </p>
+										<p class="timeline-card__text d-inline-block font-weight-bold timeline-card_head_r">2016</p>
+									</div>
+								</div>
+								<div class="timeline-cards__row">
+									<div class="timeline-card wow bounceInUp">
+										<p class="timeline-card__text d-inline-block font-weight-bold timeline-card_head_l">2017</p>
+										<p class="timeline-card__text float-right font-weight-bold"> Paradise-Soft</p>
+									</div>
+								</div>
+								<div class="timeline-cards__row">
+									<div class="timeline-card wow bounceInUp">
+										<p class="timeline-card__text font-weight-bold d-inline-block ">To be continued...</p>
+										<p class="timeline-card__text font-weight-bold timeline-card_head_r">2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End experience -->
+				<!-- Start work -->
+				<div id="portfolio" class="work bg-color-white lean-bg--top lean-bg--bottom">
+					<img class="graphic_011" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-lg.svg" alt="">
+					<img class="graphic_012" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+					<img class="graphic_013" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+					<img class="graphic_014 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+					<img class="graphic_015" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+					<img class="graphic_016" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+					<!-- <img class="graphic_017" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt=""> -->
+					<img class="graphic_018" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+					<img class="graphic_019" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+					<div class="container">
+						<h2 class="subtitle u-text-center wow bounceInUp">PORTIFILIO</h2>
+						<div class="work-list">
+							<div class="work-item wow fadeInUp">
+								<div class="row">
+									<div class="col-sm-6 col-sm-push-5">
+										<div class="imgbox">
+												<div class="imgbox__inner imgbox__inner--4-3">
+													<div class="image" style="background-image: url('images/works/thumbnail/item1.jpg');"></div>
+												</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-sm-pull-5">
+										<div class="work-item__text work-item__text--right">
+											<h3 class="work-item__title work-item__title--right"> 中山路99｜Novantanove</h3>
+											<p class="work-item__intro">Design for my favarite Italian Dessert in Tainan! I work at there before, and want to let more people know!</p>
+											<a href="" class="btn btn--primary btn--sm" data-toggle="modal" data-target="#myModal">See More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="work-item wow fadeInUp">
+								<div class="row">
+									<div class="col-sm-6 col-sm-push-1">
+										<div class="imgbox">
+												<div class="imgbox__inner imgbox__inner--4-3">
+													<div class="image" style="background-image: url('images/works/thumbnail/item2.jpg');"></div>
+												</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-sm-push-1">
+										<div class="work-item__text">
+											<h3 class="work-item__title work-item__title--left">PSYCHO-PASS サイコパス</h3>
+											<p class="work-item__intro">I want to try any posibility in web design,so I design a web for an animation I love.</p>
+											<a href="" class="btn btn--primary btn--sm" data-toggle="modal" data-target="#myModal-1">See More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="work-item wow fadeInUp">
+								<div class="row">
+									<div class="col-sm-6 col-sm-push-6">
+										<div class="imgbox">
+												<div class="imgbox__inner imgbox__inner--4-3">
+													<div class="image" style="background-image: url('images/works/thumbnail/item3.jpg');"></div>
+												</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-sm-pull-5">
+										<div class="work-item__text">
+											<h3 class="work-item__title work-item__title--right">Fashion clothes</h3>
+											<p class="work-item__intro">A simple web redesign for fashion clothes, maybe ordinary, but classic.</p>
+											<a href="" class="btn btn--primary btn--sm" data-toggle="modal" data-target="#myModal-2">See More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="work-item wow fadeInUp">
+								<div class="row">
+									<div class="col-sm-6 col-sm-push-1">
+										<div class="imgbox">
+												<div class="imgbox__inner imgbox__inner--4-3">
+													<div class="image" style="background-image: url('images/works/thumbnail/item4.jpg');"></div>
+												</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-sm-push-1">
+										<div class="work-item__text">
+											<h3 class="work-item__title">UI Design / Sign in</h3>
+											<p class="work-item__intro">I am trying to strengthen my user interface design,so I join the daily UI.</p>
+											<a href="" class="btn btn--primary btn--sm" data-toggle="modal" data-target="#myModal-3">See More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End work -->
+				<!-- Start contact -->
+				<div id="contact" class="contact">
+					<img class="graphic_020" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+					<img class="graphic_021" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+					<img class="graphic_022" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+					<!-- <img class="graphic_023 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt=""> -->
+					<img class="graphic_024" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+					<div class="container">
+						<h2 class="subtitle u-text-center color-white wow bounceInUp">CONTACT</h2>
+						
+						<div class="info">
+							<div class="info__email wow bounceInUp">
+								<a href="mailTo:sandylin82@icloud.com">sandylin82@icloud.com</a>
+							</div>
+							<div class="info__phone wow bounceInUp">
+								<span >0988759879</a>
+							</div>
+							<!-- <div class="social-bar info__social-bar">
+								<a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.3s">
+									<i class="icon icon-twitter"></i>
+								</a>
+								<a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.6s">
+									<i class="icon icon-dribbble"></i>
+								</a>
+								<a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.9s">
+									<i class="icon icon-facebook-official"></i>
+								</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<!-- End contact -->
+				
+			</section>
+			<a class="back_top " href="#top"> 
+				<i class="fa-2x fas fa-arrow-up"></i>
+			</a>
+			<!-- End main -->
+			<!--  Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Web Design / 中山路99｜Novantanove</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="images/works/item1.png" alt="中山路99｜Novantanove" class="w-100">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--  Modal-1 -->
+    <div class="modal fade" id="myModal-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Web Design / PSYCHO-PASS サイコパス</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="images/works/item2.png" alt="PSYCHO-PASS" class="w-100">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--  Modal-2 -->
+    <div class="modal fade" id="myModal-2">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Web Design / Fashion clothes</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="images/works/item3.png" alt="Fashion clothes" class="w-100">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--  Modal-3 -->
+    <div class="modal fade" id="myModal-3">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">UI Design /  Sign in </h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+             <img src="images/works/item4-1.png" alt="UI Design" class="w-50 float-left p-1">
+             <img src="images/works/item4-2.png" alt="UI Design" class="w-50 float-left p-1">
+             <img src="images/works/item4-3.png" alt="UI Design" class="w-50 float-left p-1">
+             <img src="images/works/item4-4.png" alt="UI Design" class="w-50 float-left p-1">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+		</div>
+		<!-- JS -->
+		<script src="js/jquery-2.0.2.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
